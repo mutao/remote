@@ -1,0 +1,9 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3_8.xsd">   
+  <head>
+  <title>The template1 page!</title>
+  </head>
+  <body>
+    <p>Hello world!</p>
+    <p><t:body/></p>
+  </body>
+</html> 
