@@ -1,3 +1,7 @@
 <html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3_8.xsd">   
-    ${name} 
+    <head>
+      <t:Template1>
+      ${name}
+      </t:Template1>
+    </head> 
 </html> 

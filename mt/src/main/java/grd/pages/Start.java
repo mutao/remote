@@ -12,5 +12,5 @@ public class Start {
 		this.name = name;
 	}
 	
-
+	public void Start(){}
 }
