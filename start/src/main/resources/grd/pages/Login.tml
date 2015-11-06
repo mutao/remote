@@ -1,0 +1,4 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">   
+    <t:grid source="Tests" rowsPerpage="2">
+    </t:grid>
+</html>  
