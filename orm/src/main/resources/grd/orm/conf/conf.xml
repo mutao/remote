@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+  <configuration>
+     <environments default="development">
+          <environment id="development">
+              <transactionManager type="JDBC" />
+              <!-- 配置数据库连接信息 -->
+              <dataSource type="POOLED">
+                 <property name="driver" value="oracle.jdbc.driver.OracleDriver" />
+                 <!--mysql连接方式<property name="url" value="jdbc:mysql://localhost:3306/mybatis" />-->
+                 <property name="url" value="jdbc:oracle:thin:@127.0.0.1:1521:grd" />
+                 <property name="username" value="grd" />
+                 <property name="password" value="grd" />
+             </dataSource>
+       </environment>
+     </environments>
+   <mappers>
+      <mapper resource="grd/orm/mapper/test.xml" />
+   </mappers>
+</configuration>
